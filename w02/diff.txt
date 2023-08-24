@@ -1,0 +1,14 @@
+In line number 42 of your output:
+The output should be:
+Nickels    0    0.0100
+    ^
+But your output is: 
+Nickles    0    0.0100
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [e] ASCII code(101)
+but you printed
+  [l] ASCII code(108)
+

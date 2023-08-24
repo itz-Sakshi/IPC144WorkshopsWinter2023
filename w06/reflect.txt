@@ -1,0 +1,28 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #6
+Full Name  : Sakshi Sakshi 
+Student ID#: 112602222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. There are three types of iteration constructs in C programming language because they differ in their execution process even if we can make any one of them, behave the same way.
+   Therefore, the preference to use a specific iteration construct in a code is generally decided on the basis of their execution process. 
+   For example, in a validation routine such as in this workshop, it is preferred to use a do-while loop which firstly executes the code inside it and then evaluates the condition.
+   While loops are generally used when the number of iterations is not known ahead of time. We can also use while loops for validation routines. While loops are also same as do-while loops but in while loops, the condition is evaluated first and then the code is executed.
+   For loops are used when the number of iterations is already known in advance. 
+   When working with arrays, we always favour using 'for loops' over other options because arrays always have a fixed size, thus we have fixed number of iterations in advance. Moreover, we can easily iterate over the array and access its elements by relating the array's subscript with the 'for' loop's nth number of iteration at a given time.
+   Moreover, for loops are more concise than while or do-while loops because in for loops, the increment or decrement expression is also written along with the conditional expression in the same line.
+
+2. To test my program, I usually just run my code and check the output with the printf statements. If the output of my code matches the required output and there are no errors, then it means my code is correct and free from both semantic and syntactic errors. However, if it does not match, then I start with the debugging part.
+   Debugging the syntactic errors is easy while programming in Visual Studio IDE because when the error occurs, the line number is indicated in the terminal and Visual studio also provides suggestions on how to get rid of the occured errors and most of the times, they are correct. Moreover, the syntactic errors are also highlighted in the Visual studio text editor in different colors corresponding to different syntactic errors.
+   For eliminating the semantic errors, I usually prefer using the walkthrough method of debugging. I try to evaluate the functioning and output of each line of my code and check from where the code is not working according to the intended logic. In this way, it is easier to find the exact location of the bug in the coded program and ultimately, get rid of it later on.
+   
+
+3. Firstly, I will note the line number of my output which does not match with the required output. Then I will note the difference between the required output and the actual output. In this case, it is quite clear that I had given the wrong input to computer, that's why I am getting an error.
+   Because, it is clearly mentioned that "Enter your monthly NET income" which means the computer is asking for a user input for the total monthly income value. Then I will again run the submission command and this time, I will enter the right input value which is '0' in this case. And hopefully, this time I will not get any error.
+   In some cases, we cannot easily understand the error just by looking at the unmatched character details. Therefore, we can also compare the 'output.txt' file with the correct output file to find our mistakes in the output, more precisely.  

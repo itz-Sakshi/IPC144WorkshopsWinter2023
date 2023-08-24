@@ -1,0 +1,14 @@
+In line number 348 of your output:
+The output should be:
+Are you sure you want to remove this patient record? (y/n): n
+                                                     ^
+But your output is: 
+Are you sure you want to remove this patient record? 
+                                                      ^
+
+Unmatched character details:
+The character in column 55 is supposed to be:
+  [(] ASCII code(40)
+but you printed
+  [Empty Line] ASCII code(0)
+

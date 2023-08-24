@@ -1,0 +1,27 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #4
+Full Name  : Sakshi Sakshi
+Student ID#: 112602222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Code formatting plays a crucial role in programming because it helps to increase the code readablity and reusability.
+   In this week's workshop, I used code formatting a lot since it involved many nested conditions and nested loops. 
+   First of all, I tried to write the code with proper indentation so that it becomes easier to identify scope of variables and separate selection and iteration logic parts.
+   Secondly, I declared all my global and local scope variables at the top of their respective loops and conditions so that editing and debugging becomes easy. 
+   Lastly, I tried my best to reuse my code as much as possible when the same logic was required so that it is short and easy to maintain. 
+
+2. Nested logic comes in handy while writing code which has many conditions and loops such as this week's workshop code.
+   It helps to make the code look prettier by making it short and specific. If nesting was not possible, this week's code must have been ten times lengthier than it is now.
+   Nested helps to combine a condition or a loop within another condition or loop, respectively. But, without nesting, the programmer would have to write every possible condition separately, thus making the code lengthy and difficult to read.
+   In nesting, the computer checks one condition first and if that condition is true, then check the other nested conditions, which ultimately, means both the conditions are checked without having to write them both together, every time we use them.
+   Nesting also increases code reusability as we can use the same variables within nested blocks.
+
+3. Using a series of "if" optional path constructs is not recommended when we are dealing with many conditions from which only one condition is going to be true at one time.
+   Because if we use "if" optional path constructs, then it will make the computer check and go through each and every listed condition even when one of them has already been fulfilled which will make our program slower.
+   However, if we use "if/else if" alternative path logic, the computer will skip the rest of the remaining conditions as soon as one of the conditions is true. Our code will work correctly in both cases but the latter is better to use because it saves computer's time and power.

@@ -1,0 +1,30 @@
+///////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #1
+Full Name  : Sakshi Sakshi
+Student ID#: 112602222
+Email      : ssakshi7@myseneca.ca
+Section    : NFF 
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Yes, I do have a little bit prior experience of programming in C language. 
+   Infact, I have done an introductory online course in computer programming from a platform called "edx"
+   which enabled me to strengthen my foundation in C language.
+
+2.According to my understanding of the compilation process of converting a C text file into an executable program,
+  I beleive it involves a total number of four steps.
+  Firstly, the preprocessing takes place in which the header files are resolved and comments are removed from the initial text file. 
+  Afterwards, the real compiling takes place and the contents of file are converted into assembly level instructions and
+  then further converted into machine level instructions. 
+  Lastly, the linking is done in which the final executable file is created.
+
+3. By doing this course, I would like to get more familiar with C language and broaden my understanding 
+   of computer programming. Ultimately by the end of this course, I would have learnt how to think critically and 
+   algorithmically and will begin to solve programming problems more efficiently. 

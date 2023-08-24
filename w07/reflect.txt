@@ -1,0 +1,39 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #7
+Full Name  : Sakshi Sakshi 
+Student ID#: 112602222 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Yes, I believe that I was successful in coding non-repetive sections of logic in the game play portion of this workshop. I utilized the concept of structures, arrays and iteration constructs to increase code reusability in this workshop's code.
+   I used two structures to divide and arrange the user's input data in two sections namely, 'gameInfo' and 'PlayerInfo'. Additionally, I used arrays to store the player's position history and already set positions of bombs and treasures.
+   For drawing the ruler, board, player position, etc, I used three 'for' loops respectively which iterated over the whole game length and then, nested the three 'for' loops inside a 'while' loop which goes on iterating until player's moves or lives are equal to zero. 
+   Therefore, in this way, everytime a player inputs a new move, a new ruler, board and player position will be displayed, accordingly. Luckily, in this workshop, I did not struggle at any point to convert the instructions mentioned in the pdf into real C language code.
+   I was easily able to construct the iteration constructs and conditional statements required at various points in this workshop.However, I spent majority of my time in running my code repetitively to check the output since this workshop involved a lot of user inputs. 
+   Moreover, I have a habit of checking the output of my code every time I introduce a new iteration construct or if-else statements,etc i.e. after writing every 10-20 lines of code. This helps me in writing bugfree code because if our previously written code is incorrect then it may lead to even more complicated errors if we continue writing our code without checking it. 
+   Therfore, writing the user-inputs while checking my code multiple times, was a pretty tiring work for me during this workshop.  
+
+2. User-defined types (structures) enable programmers to be creative and create their special combination
+   of different data types and keep data well-organized and grouped, according to their own
+   requirements. For example, in this workshop, I have defined a structure called 'playerInfo'. playerInfo as
+   its name suggests, helps me to manage player’s information efficiently as I can easily access player’s
+   data in my program with the help of this structure. Furthermore, I have used 'gameInfo' structure to store game's information. 
+   Therefore, using structures helped me to increase the code's readability, reusability and maintainability and ultimately, in improved data organization.
+   On the other hand, if I had used other alternatives such as seperate variables and arrays of variables, then my code would have looked ugly and
+   I must have faced confusion and difficulty in differentiating the player's data from the game's data.  
+
+3. while (player.lives != 0 && game.moves != 0)
+   {
+       for (k = 0; k < game.pathLen; k++)
+       {
+           if (player.positionHistory[k] == 1 && game.bombPosition[k] == 1 && game.treasurePosition[k] == 1)
+            {
+            }
+       }
+   }
+   The maximum number of levels of nesting, I used in this workshop's code is two.

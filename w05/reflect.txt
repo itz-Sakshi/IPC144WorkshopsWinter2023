@@ -1,0 +1,25 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #5
+Full Name  : Sakshi Sakshi 
+Student ID#: 112602222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. It is recommended to use variables and macros instead of hardcoding the values in a program because firstly, it helps to keep a record of the values that a programmer is using in a program. 
+   It also makes the code editing and debugging process easier for a fellow programmer working on other programmer's code. 
+   For example, in this workshop, I have declared macros and variables at the top section of my code which helps in improving my code's readability and maintainabilty. 
+   Moreover, if at any time, I had to change these values, I can just change them at one point in the beginning and automatically, the variable's value will get changed at all other places in the program where it has been used. 
+   In addition, I do not need to waste time in searching for these values in my code when I need them, I can easily find them by looking for the particular variable name.
+   It also increases the code reusability as we can use the same logic used with same variables within our code. 
+   Furthermore, sometimes, our code contains sensitve information such as password that we do not want to write directly in our program because if anyone will get hold of our code, our private information will also get leaked. Therefore, alternatively, we can declare a variable and export our value of password from some other file and store it in the variable.
+
+2. It is better design to include the sum and average logic outside of any validation routine because it guarantees that only the valid values are getting added in the sum and average logic. 
+   Because the compiler will proceed to the next code only when it will break from the iteration construct which can only happen when a valid value is entered in case of this week's workshop..
+   However, if I had placed my sum logic within the validation routine then it would have added each and every user input value to the sum and the calculated sum would be wrong. 
+   For example, in this workshop, if I had declared 'morningRatingTotal' inside the do while loop then every scanf value for 'morningRating' must have been added to the 'morningRatingTotal' variable which would have led to totally wrong calculations. 
+   Therefore, to avoid calculation errors and increase code readability and maintainabilty, it is advised to declare the sum and average logic outside the validation routine.

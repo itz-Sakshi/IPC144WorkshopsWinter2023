@@ -1,0 +1,50 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Assignment -1
+Full Name  : Sakshi Sakshi 
+Student ID#: 112602222
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. Prototype: void viewAllAppointments(struct ClinicData* data)
+
+This function, as it name suggests, serves the purpose of displaying all the appointments that have been scheduled for respective patients on different dates and time slots as given in the information provided in its argument data structure. 
+Moreover, the appointments will be displayed in chronological order which means if a specific appointment is scheduled for an earlier timeslot than another one, then that appointment will be displayed higher in the table of all appointments.
+Therefore, the 'selection sort' algorithm was utilized to achieve the desired output in this function.
+
+Prototype: void viewAppointmentSchedule(struct ClinicData *data)
+
+This function serves the purpose of displaying all the appointments that have been scheduled for respective patients on a specific date. It firstly prompts the user to give a date to check for appointments and then it goes through the appointments array for specific patients’ appointments which match with the date given by the user. 
+It also displays the matched appointments in chronological order. If there is no match, it "displays no records found" on the screen.
+
+Prototype: void addAppointment(struct Appointment appointments[], int
+maxAppointments, struct Patient patient[], int maxPatient)
+
+This function serves the purpose of adding a specific appointment to the appointment
+array for a specific patient. It first goes through the appointment's array to check whether there is space available for storing a new appointment.
+Then, it prompts the user to give a specific patient number, date, and time. Then it checks the appointments array for a specific
+appointment that matches the date and time mentioned by the user. If there is a match, it asks the user to enter other information for the date and time. This function will keep on prompting the user for a new date and time information unless there is no match. If there is no match, then the specific appointment is added to the appointment array.
+
+2. The scanf function in C is used to read input from the standard input stream provided by the user through the keyboard and later, store it in memory 
+However, sometimes, the use of scanf can lead to various problems such as buffer overflows and wrong-input parsing. In fact, buffer overflows and parsing errors are one of the hardest programming errors to debug.
+Therefore, in the 'clinic.c' file, the number of scanf function calls has been minimized on purpose.
+When a program has multiple scanf calls, it becomes challenging to identify which scanf call caused an error, thus making the debugging process difficut and time-consuming.
+That's why it is also advised to clear the Input buffer after every scanf function call.
+Thus, we can make the code more readable, maintainable, and easier to debug by reducing the number of scanf function calls because fewer scanf calls also means fewer chances of input-related errors.
+Therefore, 'clinic.c' file gets all its input data by using the functions in 'core.c' which are fewer in number and short in length and involve less complicated logic, and are easier to debug as compared to the clinic.c file.
+As a result, if we face any input-related issues in the clinic.c file, we don't need to check and debug the lengthy and complicated functions given in clinic.c file but we can just go to the relatively short core.c file and check for issues and remove them.
+
+
+3. Prototype: void viewAllAppointments(struct ClinicData* data): I decided to place this function in the clinic module because its purpose is to display all appointments in chronological order. The core module only includes basic functions which ensure that valid input is given by the user and mainly involves user input, user interface and utility functions.
+On the other hand, the clinic module includes display functions. Moreover, it involves working with specific data structures defined in the clinic module. Thus, I felt this function fits better in the clinic module than in the core module.
+
+Prototype: void viewAppointmentSchedule(struct ClinicData *data): I decided to place this function in the clinic module because its purpose is to display all appointments in chronological order scheduled on a specific date. The core module only includes basic functions which ensure that valid input is given by the user and mainly involves user input, user interface and utility functions.
+On the other hand, clinic module includes display functions as specified in the pseudocode instructions given in the pdf file. Moreover, it involves working with specific data structures only defined in the clinic module. Thus, I felt this function fits better in the clinic module than in the core module.
+
+Prototype: void addAppointment(struct Appointment appointments[], int maxAppointments, struct Patient patient[], int maxPatient) : I decided to place this function in the clinic module because its purpose is to add an appointment to the appointment's array. The core module only includes basic functions which ensure that valid input is given by the user and mainly involves user input, user interface and utility functions.
+On the other hand, clinic module includes relatively complicated user input and utility functions as specified in the pseudocode instructions given in the pdf file. Moreover, it involves working with specific data structures only defined in the clinic module. Thus, I felt this function fits better in the clinic module than in the core module.
+

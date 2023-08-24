@@ -1,0 +1,14 @@
+In line number 22 of your output:
+The output should be:
+
+^
+But your output is: 
+						-A.P.J. Abdul Kalam
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [Tab (\t)] ASCII code(9)
+

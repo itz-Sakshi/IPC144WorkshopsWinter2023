@@ -1,0 +1,46 @@
+///////////////////////////////////////////////////////////////////////////
+
+                              Reflection
+                             Workshop - #3
+Full Name  : Sakshi Sakshi
+Student ID#: 112602222
+Email      : ssakshi7@myseneca.ca
+Section    : NFF 
+
+Authenticity Declaration:
+
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. ((coffee1weight == 250 && customerNoOfServing < 5) || (coffee1weight == 500 && customerNoOfServing < 10 && customerNoOfServing > 4) || (coffee1weight == 1000 && customerNoOfServing > 9))
+   A) I used seven relational expressions for this part of code.
+     1. coffee1weight == 250
+     2. customerNoOfServing < 5
+     3. coffee1weight == 500
+     4. customerNoOfServing < 10
+     5. customerNoOfServing > 4
+     6. coffee1weight == 1000
+     7. customerNoOfServing > 9
+    B) I used four logical expressions in this part of code.
+     1. coffee1weight == 250 && customerNoOfServing < 5
+     2. coffee1weight == 500 && customerNoOfServing < 10 && customerNoOfServing > 4
+     3. coffee1weight == 1000 && customerNoOfServing > 9
+     4. (coffee1weight == 250 && customerNoOfServing < 5) || (coffee1weight == 500 && customerNoOfServing < 10 && customerNoOfServing > 4) || (coffee1weight == 1000 && customerNoOfServing > 9)
+
+2. (product3Id != product2Id && product3Id != product1Id) -> Without using deMorgan's law
+   !(product3Id == product2Id || product3Id == product1Id) -> Using deMorgan's law
+   
+   I used the method which does not involve the use of deMorgan's law.
+
+3. => const double GRAMS_IN_LBS = 453.5924;
+      char coffee1Type, coffee2Type, coffee3Type;
+      int coffee1weight, coffee2weight, coffee3weight;
+      char coffee1cream, coffee2cream, coffee3cream;
+      char customerCType;
+      int customerNoOfServing;
+      char customerCcream; 
+  According to me, the two best and most efficient ways to organize the variables given above in order to store the data provided in this particular program are:
+  A) All the variables to be used in program should be declared at the top section of the main function so that it becomes easy for us to edit and debug our code in the future. 
+  B) The names of the variables should be self-explanatory as well as short and should not create confusion and the variables of the same type should be declared together in one line to increase code readabilty, clarity and decrease length of the program.

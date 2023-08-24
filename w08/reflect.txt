@@ -1,0 +1,33 @@
+///////////////////////////////////////////////////////////////////////////
+                               Reflection
+                             Workshop - #8
+Full Name  : Sakshi Sakshi 
+Student ID#: 112602222 
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+///////////////////////////////////////////////////////////////////////////
+
+1. In this workshop, I used two methods to return the output values of helper functions i.e via an an argument or by the return statement. According to me, the most prominent advantage of doing this is that users of those functions have the option to retrieve the function's output value in two different ways. 
+   Moreover, they can either use the output value as an input to another function or just use the "changed argument" in their code. Therefore, it provides flexibility to the programmer in using functions' output values. Furthermore, we can also use conditional statements in functions and change the argument's value only when a particular condition is fulfilled , otherwise just use the return statement to get the function output.
+   However, writing functions having two ways of returning output is not considered a good practice because it leads to confusion and decreases the code readability. Moreover, if a fellow programmer will work on my code, he/she will find it harder to modify my code because he/she may be confused about which approach to use to get the output value.
+   Therefore, this may give rise to potential errors and bugs.
+
+2. One function in this workshop that demonstrates less than perfect cohesion is the "displayReportData" function. This function is responsible for displaying the formatted data rows in the analysis table, which is a single responsibility. However, it also includes the code for displaying a series of three asterisk at the end of a product information row to indicate that this product has been identified as the cheapest, which is not directly related to displaying the report data. 
+   Therefore, this reduces the function's cohesion. To improve this function's cohesion, we could separate the code for indicating the cheapest product and displaying the report data and using two separate functions for the two tasks.
+   One function in this workshop that demonstrates coupling that could be improved is the "convertLbs" function. This function is responsible for converting the weight data into 'kgs' and 'grams'. But it depends on the 'convertLbsKg' and 'convertLbsG' function to convert the weight data into respective units. 
+   This coupling can be improved by modifying the 'convertLbs' function to do the calculations itself instead of depending on the others function. This would reduce the function's coupling and increase its reusability since it would no longer be tied to any other functions.
+
+3. There are many advantages of passing structures to functions as arguments instead of multiple values. Firstly, it helps in increasing the code readability and maintainability. It make the code easier to read, understand and modify and it also decreases the code length.
+   Based on my readings this week, to make the passing of structures to functions more efficient, we should use pointers to structures as arguments in functions. Because if we pass the structure by value, a copy of the structure will be sent to the function which will result in waste of time and memory. 
+   However, if we will use pointers, the actual address of the structure will be passed, which is more efficient. This method can be used to write functions in which we are not modifying the values of the members of its structure argument.
+   The “displayCatfoodData” function could be improved by writing it as follows, where the pointer to the address of the structure has been passed as an argument to the function instead of multiple values:
+   Function prototype:
+   void displayCatFoodData(struct CatFoodInfo* catFoodData);
+   Function definition:
+   void displayCatFoodData(struct CatFoodInfo* catFoodData)
+   {
+       printf("%07d %10.2lf %10.1lf %8d\n", catFoodData->skuNum, catFoodData->price, catFoodData->weight, catFoodData->calPerServe);
+   }
